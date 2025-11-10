@@ -3,161 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FocusUp - Privacy Policy</title>
+    <title>FocusUp Privacy Policy</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
-            background: #F8F6F3;
+            line-height: 1.6;
+            background-color: #f5f5f5;
         }
-        h1 { color: #2D3748; margin-top: 40px; }
-        h2 { color: #4A5568; margin-top: 30px; }
-        .header { text-align: center; padding: 40px 0; }
-        .last-updated { color: #6B6B6B; font-style: italic; }
-        .highlight { background: #C4B5A0; padding: 15px; border-radius: 8px; margin: 20px 0; }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        h2 { color: #6C63FF; margin-top: 30px; }
+        h3 { margin-top: 20px; }
+        a { color: #6C63FF; }
+        .summary {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🎯 FocusUp Privacy Policy</h1>
-        <p class="last-updated">Last updated: October 27, 2025</p>
+    <div class="container">
+        <h1>FocusUp Privacy Policy</h1>
+        <p><strong>Last updated:</strong> November 10, 2025</p>
+
+        <div class="summary">
+            <strong>Simple Summary:</strong> We don't collect or store any of your personal data. Everything stays on your device. When you use AI features, only your task descriptions are sent to generate focus plans.
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>None. FocusUp does not collect, store, or transmit any personal information to our servers. We have no servers, databases, or cloud storage containing your data.</p>
+
+        <h2>2. Data Storage</h2>
+        <p>All your productivity data is stored locally on your iOS or Android device using secure storage:</p>
+        <ul>
+            <li>Focus session history and statistics</li>
+            <li>Task lists and completion records</li>
+            <li>App preferences and settings</li>
+            <li>Premium purchase verification status</li>
+            <li>App blocking preferences (intent tracking only)</li>
+        </ul>
+        <p>We have zero access to this data. It never leaves your device except through your own device backups (iCloud, iTunes, Google Drive).</p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>FocusUp uses the following services:</p>
+        <ul>
+            <li><strong>Apple App Store / Google Play Store:</strong> For app distribution and updates</li>
+            <li><strong>Apple StoreKit / Google Play Billing:</strong> For in-app purchase processing and verification</li>
+            <li><strong>RevenueCat:</strong> Cross-platform payment processing (connects to Apple/Google stores)</li>
+            <li><strong>Rork AI Toolkit:</strong> For AI-powered focus plan generation</li>
+        </ul>
+
+        <p><strong>We do not use:</strong></p>
+        <ul>
+            <li>Analytics or tracking services</li>
+            <li>Advertising networks</li>
+            <li>Social media integrations</li>
+            <li>Cloud storage services (all data stored locally)</li>
+            <li>Third-party databases</li>
+        </ul>
+
+        <h3>3.1 AI Plan Generation (Rork AI Toolkit)</h3>
+        <p>When you use the "Generate AI Plan" feature:</p>
+        <ul>
+            <li>Only your task text is sent to Rork's AI service</li>
+            <li>No personal information (name, email, etc.) is transmitted</li>
+            <li>AI responses are displayed in the app and not stored on external servers</li>
+            <li>This is an optional feature - you can choose not to use it</li>
+            <li>Requires an active internet connection</li>
+            <li>Data processing follows Rork AI's privacy standards</li>
+        </ul>
+
+        <h3>3.2 Payment Processing (RevenueCat)</h3>
+        <p>FocusUp uses RevenueCat to manage subscriptions across iOS and Android:</p>
+        <ul>
+            <li>RevenueCat connects to Apple's StoreKit and Google Play Billing</li>
+            <li>Payment information is handled entirely by Apple/Google (we never see it)</li>
+            <li>RevenueCat receives only a purchase verification token from Apple/Google</li>
+            <li>No personal or payment information is shared beyond what Apple/Google provide</li>
+            <li>Your Apple ID, Google account, and payment details remain with Apple/Google</li>
+            <li>RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></li>
+        </ul>
+
+        <h2>4. In-App Purchases</h2>
+        <p>When you purchase FocusUp Premium:</p>
+        <ul>
+            <li>Payment is processed entirely by Apple or Google (we never see your payment information)</li>
+            <li>RevenueCat provides us with only a verification token to confirm your purchase</li>
+            <li>Your purchase status is stored locally on your device</li>
+            <li>We verify purchases with Apple's or Google's servers only (no personal data is transmitted)</li>
+        </ul>
+
+        <h2>5. Network Activity</h2>
+        <p>FocusUp makes network requests only for:</p>
+        <ul>
+            <li><strong>Purchase Verification:</strong> Contacting Apple's or Google's servers to verify your premium purchase status</li>
+            <li><strong>AI Plan Generation:</strong> Sending task descriptions to Rork AI when you use this feature</li>
+            <li><strong>App Updates:</strong> Checking for app updates through the App Store or Play Store</li>
+        </ul>
+        <p>No other network activity occurs. Your productivity data never leaves your device except when you explicitly use the AI plan feature.</p>
+
+        <h2>6. Email Feedback</h2>
+        <p>If you use the "Contact Support" feature or email us directly:</p>
+        <ul>
+            <li>Your email is composed using your device's Mail app</li>
+            <li>You choose what information to include</li>
+            <li>The email may include device information (OS version, device model) to help us debug issues</li>
+            <li>We only receive what you explicitly send via email</li>
+            <li>We use this information solely to respond to your feedback and improve the app</li>
+        </ul>
+
+        <h2>7. Device Backups</h2>
+        <p>If you back up your device (iCloud, iTunes, or Google Drive):</p>
+        <ul>
+            <li>Your FocusUp data is included in your device backup</li>
+            <li>This is handled entirely by Apple or Google</li>
+            <li>We have no access to your backups</li>
+            <li>Restoring from backup will restore your FocusUp data</li>
+        </ul>
+
+        <h2>8. Children's Privacy</h2>
+        <p>FocusUp is safe for users of all ages. We do not knowingly collect information from anyone, including children under 13. Since no personal data is collected at all, there are no additional risks for children.</p>
+
+        <h2>9. Your Rights & Data Control</h2>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li><strong>Access:</strong> All your data is viewable within the app</li>
+            <li><strong>Delete:</strong> Delete the app to remove all data permanently from your device</li>
+            <li><strong>Export:</strong> Your data is backed up with your device (no separate export needed)</li>
+            <li><strong>Portability:</strong> Data moves with your device backups</li>
+        </ul>
+        <p>Since we don't collect your data, there's nothing for us to access, modify, or delete on our end. If you used the AI plan feature and want to request deletion of task descriptions sent to Rork AI, please contact us at <a href="mailto:nikhilitty77@gmail.com">nikhilitty77@gmail.com</a>.</p>
+
+        <h2>10. Data Security</h2>
+        <p>Your data is protected by:</p>
+        <ul>
+            <li>iOS and Android device-level encryption and secure storage</li>
+            <li>Apple's and Google's security infrastructure for purchase verification</li>
+            <li>Minimal transmission of data over the internet (only for AI features and purchase verification)</li>
+            <li>No third-party access to your personal information</li>
+        </ul>
+
+        <h2>11. International Users</h2>
+        <p>Since FocusUp stores all data locally on your device:</p>
+        <ul>
+            <li>Your data stays in your country/region</li>
+            <li>No cross-border data transfers occur (except when you use AI features)</li>
+            <li>GDPR, CCPA, and other privacy regulations are inherently satisfied</li>
+        </ul>
+
+        <h2>12. Changes to This Policy</h2>
+        <p>If we update this privacy policy:</p>
+        <ul>
+            <li>The "Last updated" date at the top will change</li>
+            <li>We'll notify you through the app if changes are significant</li>
+            <li>Continued use of the app constitutes acceptance of changes</li>
+        </ul>
+
+        <h2>13. California Privacy Rights (CCPA)</h2>
+        <p>California residents: Since we don't collect any personal information beyond what's stored locally on your device, CCPA rights regarding data collection, sale, and deletion are largely not applicable. There is no centrally stored data to request, delete, or opt out of selling.</p>
+
+        <h2>14. European Privacy Rights (GDPR)</h2>
+        <p>EU/EEA residents: Since we don't process any personal data beyond local device storage, GDPR obligations regarding data processing, storage, and transfer do not apply in the traditional sense. There is no data controller or processor relationship for centrally stored data.</p>
+
+        <h2>15. Contact Us</h2>
+        <p>If you have questions about this Privacy Policy:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:nikhilitty77@gmail.com">nikhilitty77@gmail.com</a></li>
+            <li><strong>Support:</strong> Visit our <a href="support.html">Support Page</a></li>
+        </ul>
+
+        <div class="summary" style="margin-top: 40px;">
+            <strong>Bottom Line:</strong> FocusUp respects your privacy completely. Your data is yours alone—stored on your device, never collected by us, never sold, never shared. We can't access your data even if we wanted to, because we don't have any servers or databases storing it. The only exception is when you choose to use the AI plan feature, which sends only your task descriptions to generate personalized focus plans.
+        </div>
+
+        <p class="back-link">
+            <a href="terms-of-service.html">Terms of Service</a> | <a href="support.html">Support</a> | <a href="index.html">← Back</a>
+        </p>
     </div>
-
-    <div class="highlight">
-        <strong>Simple Summary:</strong> We don't collect or store any of your personal data. Everything stays on your device. Period.
-    </div>
-
-    <h2>1. Information We Collect</h2>
-    <p><strong>None.</strong> FocusUp does not collect, store, or transmit any personal information to our servers. We have no servers, databases, or cloud storage containing your data.</p>
-
-    <h2>2. Data Storage</h2>
-    <p>All your productivity data is stored locally on your iOS device using Apple's secure storage:</p>
-    <ul>
-        <li>Focus session history and statistics</li>
-        <li>Task lists and completion records</li>
-        <li>App preferences and settings</li>
-        <li>Premium purchase verification status</li>
-    </ul>
-    <p><strong>We have zero access to this data.</strong> It never leaves your device except through your own device backups (iCloud, iTunes).</p>
-
-    <h2>3. Third-Party Services</h2>
-    <p>FocusUp uses only Apple's services:</p>
-    <ul>
-        <li><strong>Apple App Store:</strong> For app distribution and updates</li>
-        <li><strong>Apple StoreKit:</strong> For in-app purchase processing and verification</li>
-    </ul>
-    <p><strong>We do not use:</strong></p>
-    <ul>
-        <li>Analytics or tracking services</li>
-        <li>Advertising networks</li>
-        <li>Social media integrations</li>
-        <li>Cloud storage services</li>
-        <li>Third-party databases</li>
-    </ul>
-
-    <h2>4. In-App Purchases</h2>
-    <p>When you purchase FocusUp Premium:</p>
-    <ul>
-        <li>Payment is processed entirely by Apple (we never see your payment information)</li>
-        <li>Apple provides us with only a verification token to confirm your purchase</li>
-        <li>Your purchase status is stored locally on your device</li>
-        <li>We verify purchases with Apple's servers only (no personal data is transmitted)</li>
-        <li>Your Apple ID and payment details remain with Apple</li>
-    </ul>
-
-    <h2>5. Network Activity</h2>
-    <p>FocusUp makes network requests only for:</p>
-    <ul>
-        <li><strong>Purchase Verification:</strong> Contacting Apple's servers to verify your premium purchase status</li>
-        <li><strong>App Updates:</strong> Checking for app updates through the App Store</li>
-    </ul>
-    <p><strong>No other network activity occurs.</strong> Your productivity data never leaves your device.</p>
-
-    <h2>6. Email Feedback</h2>
-    <p>If you use the "Send Feedback" feature in the app:</p>
-    <ul>
-        <li>Your email is composed using your device's Mail app</li>
-        <li>You choose what information to include</li>
-        <li>The email may include device information (iOS version, device model) to help us debug issues</li>
-        <li>We only receive what you explicitly send via email</li>
-        <li>We use this information solely to respond to your feedback and improve the app</li>
-    </ul>
-
-    <h2>7. Device Backups</h2>
-    <p>If you back up your device (iCloud or iTunes):</p>
-    <ul>
-        <li>Your FocusUp data is included in your device backup</li>
-        <li>This is handled entirely by Apple</li>
-        <li>We have no access to your backups</li>
-        <li>Restoring from backup will restore your FocusUp data</li>
-    </ul>
-
-    <h2>8. Children's Privacy</h2>
-    <p>FocusUp is safe for users of all ages. We do not knowingly collect information from anyone, including children under 13. Since no data is collected at all, there are no additional risks for children.</p>
-
-    <h2>9. Your Rights & Data Control</h2>
-    <p>You have complete control over your data:</p>
-    <ul>
-        <li><strong>Access:</strong> All your data is viewable within the app</li>
-        <li><strong>Delete:</strong> Delete the app to remove all data permanently</li>
-        <li><strong>Export:</strong> Your data is backed up with your device (no separate export needed)</li>
-        <li><strong>Portability:</strong> Data moves with your device backups</li>
-    </ul>
-    <p>Since we don't collect your data, there's nothing for us to access, modify, or delete on our end.</p>
-
-    <h2>10. Data Security</h2>
-    <p>Your data is protected by:</p>
-    <ul>
-        <li>iOS device-level encryption and secure storage</li>
-        <li>Apple's security infrastructure for purchase verification</li>
-        <li>No transmission of personal data over the internet</li>
-        <li>No third-party access to your information</li>
-    </ul>
-
-    <h2>11. International Users</h2>
-    <p>Since FocusUp stores all data locally on your device:</p>
-    <ul>
-        <li>Your data stays in your country/region</li>
-        <li>No cross-border data transfers occur</li>
-        <li>GDPR, CCPA, and other privacy regulations are inherently satisfied</li>
-    </ul>
-
-    <h2>12. Changes to This Policy</h2>
-    <p>If we update this privacy policy:</p>
-    <ul>
-        <li>The "Last updated" date at the top will change</li>
-        <li>We'll notify you through the app if changes are significant</li>
-        <li>Continued use of the app constitutes acceptance of changes</li>
-    </ul>
-
-    <h2>13. California Privacy Rights (CCPA)</h2>
-    <p>California residents: Since we don't collect any personal information, CCPA rights regarding data collection, sale, and deletion are not applicable. There is no data to request, delete, or opt out of selling.</p>
-
-    <h2>14. European Privacy Rights (GDPR)</h2>
-    <p>EU/EEA residents: Since we don't process any personal data, GDPR obligations regarding data processing, storage, and transfer do not apply. There is no data controller or processor relationship.</p>
-
-    <h2>15. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy:</p>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:nikhilitty77@gmail.com">nikhilitty77@gmail.com</a></li>
-        <li><strong>Support:</strong> <a href="support.html">Visit our Support Page</a></li>
-    </ul>
-
-    <div class="highlight" style="margin-top: 40px;">
-        <strong>Bottom Line:</strong> FocusUp respects your privacy completely. Your data is yours alone—stored on your device, never collected by us, never sold, never shared. We can't access your data even if we wanted to, because we don't have any servers or databases storing it.
-    </div>
-
-    <p style="text-align: center; margin-top: 40px; color: #6B6B6B;">
-        <a href="terms-of-service.html" style="color: #4A5568; margin: 0 10px;">Terms of Service</a> | 
-        <a href="support.html" style="color: #4A5568; margin: 0 10px;">Support</a>
-    </p>
 </body>
 </html>
-
-
-
-
